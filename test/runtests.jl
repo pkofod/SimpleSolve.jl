@@ -1,5 +1,7 @@
 using SimpleSolve
 using Base.Test
+using StaticArrays
 
-# write your own tests here
-@test 1 == 2
+include("nlsolve.jl")
+include("fixedpoint.jl")
+include("seqsolve.jl")
